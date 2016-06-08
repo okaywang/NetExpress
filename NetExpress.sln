@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetExpress", "NetExpress\NetExpress.csproj", "{DE96FF1D-2F1C-49D0-8FD7-636F4BD5AEDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zhaopin.rd.security", "zhaopin.rd.security\zhaopin.rd.security.csproj", "{DEF2E394-9972-471F-BD98-F0B792798655}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationTest", "ConsoleApplicationTest\ConsoleApplicationTest.csproj", "{DEDBF796-8EAA-4E1F-9C37-679C8D9A95D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{DE96FF1D-2F1C-49D0-8FD7-636F4BD5AEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE96FF1D-2F1C-49D0-8FD7-636F4BD5AEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE96FF1D-2F1C-49D0-8FD7-636F4BD5AEDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEF2E394-9972-471F-BD98-F0B792798655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF2E394-9972-471F-BD98-F0B792798655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF2E394-9972-471F-BD98-F0B792798655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF2E394-9972-471F-BD98-F0B792798655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEDBF796-8EAA-4E1F-9C37-679C8D9A95D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEDBF796-8EAA-4E1F-9C37-679C8D9A95D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEDBF796-8EAA-4E1F-9C37-679C8D9A95D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEDBF796-8EAA-4E1F-9C37-679C8D9A95D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
