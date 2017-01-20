@@ -9,11 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zhaopin.rd.security", "zhao
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationTest", "ConsoleApplicationTest\ConsoleApplicationTest.csproj", "{DEDBF796-8EAA-4E1F-9C37-679C8D9A95D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remoting.Server", "Remoting.Server\Remoting.Server.csproj", "{BB3021B7-9739-4EFE-94E2-14A8ADD0D195}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remoting.Server", "Remoting\Remoting.Server\Remoting.Server.csproj", "{BB3021B7-9739-4EFE-94E2-14A8ADD0D195}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remoting.Client", "Remoting.Client\Remoting.Client.csproj", "{9B6BC0B5-E988-4AEB-9E33-C8D3B3196247}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remoting.Client", "Remoting\Remoting.Client\Remoting.Client.csproj", "{9B6BC0B5-E988-4AEB-9E33-C8D3B3196247}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remoting.Common", "Remoting.Common\Remoting.Common.csproj", "{B84C522B-A7F8-4085-ABF5-8CBDBEB0F282}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remoting.Common", "Remoting\Remoting.Common\Remoting.Common.csproj", "{B84C522B-A7F8-4085-ABF5-8CBDBEB0F282}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Remoting", "Remoting", "{CC0E4C51-7BF9-4A9A-AAB2-4CABB32320B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,5 +50,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB3021B7-9739-4EFE-94E2-14A8ADD0D195} = {CC0E4C51-7BF9-4A9A-AAB2-4CABB32320B7}
+		{9B6BC0B5-E988-4AEB-9E33-C8D3B3196247} = {CC0E4C51-7BF9-4A9A-AAB2-4CABB32320B7}
+		{B84C522B-A7F8-4085-ABF5-8CBDBEB0F282} = {CC0E4C51-7BF9-4A9A-AAB2-4CABB32320B7}
 	EndGlobalSection
 EndGlobal
