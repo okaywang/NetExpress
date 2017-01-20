@@ -26,7 +26,7 @@ namespace Remoting.Client
             ChannelServices.RegisterChannel(channel);
 
             //创建远程对象
-            string RemoteServerUrl = "http://127.0.0.1:520/HelloGenerator.soap";
+            string RemoteServerUrl = "http://192.168.0.105:520/HelloGenerator.soap";
             var generator = (IHelloGenerator)Activator.GetObject(typeof(IHelloGenerator), RemoteServerUrl);
             Console.WriteLine(generator.GetHelloString("zhenyulu"));
             Console.Read();
